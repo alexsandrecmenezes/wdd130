@@ -56,11 +56,12 @@ footer {
 
 }
 
+/*resetar as margens da pagina
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Seletores de classe*/
-caixa {}
+/* Seletores de classe
+caixa {}*/
