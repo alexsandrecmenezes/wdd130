@@ -1,3 +1,10 @@
+/*resetar as margens da pagina*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -31,10 +38,6 @@ main {
 
 aside {
     width: 450;
-    margin: 1px;
-    border: 1px solid #000;
-    padding: 1px;
-    background-color: azure;
     color: black;
     text-align: center;
 }
@@ -45,8 +48,12 @@ aside img {
 }
 
 main img {
-    width: 200px;
+    width: 180px;
     height: auto;
+    border: 1px solid #000;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 footer {
@@ -56,12 +63,10 @@ footer {
 
 }
 
-/*resetar as margens da pagina
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Seletores de classe*/
+.caixa {
+    border: 1px solid #000;
+    padding: 1.2em;
+    margin: 1em;
+    background-color: azure;
 }
-
-/* Seletores de classe
-caixa {}*/
