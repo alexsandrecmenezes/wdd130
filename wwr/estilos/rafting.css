@@ -1,12 +1,12 @@
 :root {
     --cor-primaria: #055a05;
     /*verde floresta*/
-    /*--cor-secundaria: #f4a261;
-    bege medio*/
+    --cor-secundaria: #f4a261;
+    /*bege medio*/
     --cor-destaque1: #264653;
     /*azul escuro acinzentado*/
-    /*--cor-destaque2: #e9c46a;
-    amarelo claro dourado*/
+    --cor-destaque2: #e9c46a;
+    /*amarelo claro dourado*/
     --fonte-titulo: "Times New Roman", "Georgia", serif;
     /*Fonte*/
     --fonte-body: Times, Helvetica, sans-serif
@@ -47,18 +47,18 @@ article {
     padding: 8px;
 }
 
-.redes-sociais {
+.redes-sociais a {
     text-decoration: none;
 }
 
-.hero {
+/*.hero {
     position: relative;
 }
 
 .hero h1,
 .hero article {
     position: absolute;
-}
+}*/
 
 .hero img {
     display: block;
@@ -80,4 +80,8 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+.socialmedia {
+    text-decoration: none;
 }
