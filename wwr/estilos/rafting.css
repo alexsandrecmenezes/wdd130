@@ -78,3 +78,7 @@ h1 {
 .hero {
     position: relative;
 }
+
+.hero article {
+    position: absolute;
+}
