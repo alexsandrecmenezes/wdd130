@@ -71,8 +71,12 @@ h1 {
 }
 
 .hero article img {
-    float: right;
-    width: 125px;
+    display: block;
+    width: 100%;
+    height: auto;
+
+    /*float: right;
+    width: 125px;*/
 }
 
 .hero {
