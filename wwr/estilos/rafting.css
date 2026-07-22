@@ -16,7 +16,7 @@ header {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: var(--cor-destaque1);
+    color: var(--cor-secundaria);
 }
 
 body {
@@ -45,7 +45,9 @@ article {
     padding: 8px;
 }
 
-.rede-sociais a {
+.rede-sociais a,
+nav a,
+footer a {
     text-decoration: none;
 }
 
@@ -69,8 +71,13 @@ h1 {
     color: var(--cor-destaque2);
 }
 
-article {
+.hero article,
+.hero h1 {
     position: absolute;
+}
+
+.hero article {
+    float: right;
 }
 
 .hero img {
