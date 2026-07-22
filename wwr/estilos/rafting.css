@@ -62,7 +62,8 @@ article {
 }
 
 h1 {
-    position: 20px;
+    position: absolute;
+    top: 20px;
     width: 100%;
     padding: 16px;
     text-align: center;
