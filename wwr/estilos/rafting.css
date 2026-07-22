@@ -75,7 +75,6 @@ h1 {
     width: 125px;
 }
 
-.hero h1,
-.hero article {
-    position: absolute;
+.hero {
+    position: relative;
 }
