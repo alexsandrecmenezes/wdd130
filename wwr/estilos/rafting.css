@@ -56,6 +56,10 @@ h1 {
 }
 
 .hero {
+    position: absolute;
+}
+
+.hero {
     position: relative;
     text-align: center;
     padding: 20px;
@@ -121,7 +125,6 @@ header {
 
 .historia h2 {
     grid-column: 1 / -1;
-    text-align: center;
     margin-bottom: 10px;
     font-size: 22px;
     font-weight: bold;
