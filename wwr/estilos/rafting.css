@@ -68,10 +68,6 @@ h1 {
 }
 
 .hero article {
-    position: absolute;
-}
-
-.hero article {
     position: static;
     border: 1px solid #333;
     padding: 50px;
