@@ -56,10 +56,6 @@ h1 {
 }
 
 .hero {
-    position: absolute;
-}
-
-.hero {
     position: relative;
     text-align: center;
     padding: 20px;
