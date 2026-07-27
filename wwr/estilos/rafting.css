@@ -60,6 +60,7 @@ h1 {
     text-align: center;
     padding: 20px;
     background-color: #fff;
+    min-height: 280px;
 
 }
 
@@ -68,7 +69,10 @@ h1 {
 }
 
 .hero article {
-    position: static;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     border: 1px solid #333;
     padding: 50px;
     background-color: #fff;
