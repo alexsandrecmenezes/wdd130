@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de pesquisa</title>
+    <link rel="stylesheet" href="estilos/formulario-pesquisa.css">
+</head>
+<header></header>
+<main>
+    <form>
+        <label for="nomecompleto">Nome de Usuaio</label>
+        <input type="text" id="nome-completo" name="nome-completo" required>
+        <label for="email">Endereço de email do usuario</label>
+        <input type="email" id="emaildousuario" name="emaildousuario" required>
+        <div class="item-formulario coluna2">
+            <label for="nomecompleto">Nome Completo:</label>
+            <input type="text" id="nomecompleto" name="nomecompleto">
+        </div>
+        <div class="item-formulario coluna2">
+            <label for="emaildousuario">E-mail:</label>
+            <input type="email" id="emaildousuario" name="emaildousuario">
+        </div>
+        <label for="navegador">Qual é o seu navegador favorito?</label>
+        <select name="navegador" id="navegador">
+            <option value="1">Chrome</option>
+            <option value="2">Safari</option>
+            <option value="3">Edge</option>
+            <option value="4">Brave</option>
+            <option value="5">Outro</option>
+        </select>
+        <label>
+            <input type="checkbox" id="newsletter" name="newsletter">Você tem um bichinho de
+            estimação em casa?
+        </label>
+        <label for="feedback">Liste os lugares onde você morou.</label>
+        <textarea id="feedback" name="feedback"
+          placeholder="Rio de Janeiro, São Paulo, Minas Gerais" rows="4">
+        </textarea>
+        <button type="submit">Enviar pesquisa</button>
+
+
+    </form>
+</main>
+
+<body></body>
+
+</html>
