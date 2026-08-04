@@ -62,7 +62,7 @@ footer a {
     display: flex;
     flex-direction: column;
     width: 250px;
-    align-items: auto;
+    align-items: right;
     gap: 15px;
     margin-bottom: 12px;
 }
