@@ -138,26 +138,28 @@ header {
     flex: 1 1 auto;
 }
 
-.historia {
-    display: grid;
-    grid-template-rows: auto 1fr;
-    grid-template-columns: 1fr 200px 1fr;
-    gap: 20px;
-    align-items: center;
+.equipe {
     border: 1px solid #333;
+    /* Borda ao redor do bloco, como no wireframe */
+    padding: 20px;
+    text-align: center;
 }
 
-.historia h2 {
-    grid-column: 1 / -1;
-    margin-bottom: 10px;
-    font-size: 22px;
-    font-weight: bold;
-    color: #000;
+.cards-funcionarios {
+    display: flex;
+    justify-content: space-around;
+    /* Distribui as fotos igualmente */
+    align-items: center;
+    margin-top: 20px;
 }
 
-.historia img {
-    width: 100%;
-    max-width: 200px;
-    height: auto;
-    justify-self: center;
+.cards-funcionarios figure {
+    text-align: center;
+}
+
+.cards-funcionarios img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    /* Garante que a foto preencha o quadrado sem distorcer */
 }
