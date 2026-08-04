@@ -138,8 +138,9 @@ header {
     flex: 1 1 auto;
 }
 
-.equipe {
+.time {
     border: 1px solid #333;
+    /* Borda ao redor do bloco, como no wireframe */
     padding: 20px;
     text-align: center;
 }
@@ -147,6 +148,7 @@ header {
 .equipe {
     display: flex;
     justify-content: space-around;
+    /* Distribui as fotos igualmente */
     align-items: center;
     margin-top: 20px;
 }
@@ -159,4 +161,5 @@ header {
     width: 150px;
     height: 150px;
     object-fit: cover;
+    /* Garante que a foto preencha o quadrado sem distorcer */
 }
